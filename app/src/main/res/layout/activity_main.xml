@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <remotecontrol.tiro.com.cn.slidingtablayoutdemo.view.SlidingTabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:background="#414A59"
+        app:tabIndicatorHeight="0dp"
+        app:tabMode="scrollable">
+
+    </remotecontrol.tiro.com.cn.slidingtablayoutdemo.view.SlidingTabLayout>
+
+    <remotecontrol.tiro.com.cn.slidingtablayoutdemo.view.CustomViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tablayout">
+
+    </remotecontrol.tiro.com.cn.slidingtablayoutdemo.view.CustomViewPager>
+
+</RelativeLayout>

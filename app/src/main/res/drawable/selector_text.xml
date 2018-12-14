@@ -1,0 +1,4 @@
+﻿<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/my_message_title_select" android:state_selected="true" />
+    <item android:color="@color/my_message_title" android:state_selected="false" />
+</selector>
